@@ -4,8 +4,22 @@ const contentToCache = [
     "Build/FeiraDejogos1.1.framework.js.gz",
     "Build/FeiraDejogos1.1.data.gz",
     "Build/FeiraDejogos1.1.wasm.gz",
-    "TemplateData/style.css"
-
+    "TemplateData/style.css",
+    "TemplateData/Banco-Imagem.png",
+    "TemplateData/progress-bar-empty-dark.png",
+    "TemplateData/progress-bar-empty-light.png",
+    "TemplateData/progress-bar-full-dark.png",
+    "TemplateData/progress-bar-full-light.png",
+    "TemplateData/unity-logo-dark.png",
+    "TemplateData/unity-logo-light.png",
+    //icones duplicados no repositório?
+    "TemplateData/icons/unity-logo-dark.png",
+    "TemplateData/icons/unity-logo-light.png",
+    "StreamingAssets/UnityServicesProjectConfiguration.json",
+    "jogos/arcade/0/logo.png",
+    "jogos/arcade/1/logo.png",
+    "jogos/arcade/2/logo.png",
+    "jogos/arcade/3/logo.png",
 ];
 
 self.addEventListener('install', function (e) {
