@@ -33,6 +33,7 @@ self.addEventListener('install', function (e) {
 });
 
 self.addEventListener('fetch', function (e) {
+    const tempo = event.timeStamp; // pega o tempo relativo do evento que aconteceu
     e.respondWith((async function () {
       let response = await caches.match(e.request);
       console.log(`[Service Worker] Fetching resource: ${e.request.url}`);
